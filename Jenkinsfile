@@ -8,7 +8,7 @@ pipeline {
  }
  stages {
     stage('Init') {
-        stpes {
+        steps {
             sh """
              ls -ltr
             """
